@@ -41,10 +41,30 @@ p{
 .footer a{
 	text-decoration: none;
 }
+
+
+/*CONCURSOS*/
+.textoDescriptivo{
+	text-align: justify;
+	margin-right: 3rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+
+}
+
+
 /*ESTUDIO*/
 .textoIntegrantes{
 	text-align: justify;
 	margin-bottom: 2rem;
 }
 
+@media all and (max-width: 992px){
 
+	.textoDescriptivo{
+		text-align: justify;
+		margin:2rem;
+
+		}
+
+}
