@@ -4,8 +4,7 @@
     margin: 1rem;
   }
   .textoInicio h1 {
-    font-size: 2rem;
-    color: green;
+    font-size: 1em;
   }
 }
 
@@ -25,7 +24,7 @@ body {
 
 .textoInicio h1 {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 .textoInicio p {
@@ -35,10 +34,16 @@ body {
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: black;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 3rem;
 }
 
@@ -79,3 +84,4 @@ body {
 .textoIntegrantes {
   text-align: justify;
 }
+/*# sourceMappingURL=estilos.css.map */

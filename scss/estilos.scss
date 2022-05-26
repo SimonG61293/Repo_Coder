@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap');
+
+
+@import "mediaqueries";
+
+$color-nuevo:
+	black;
+
+#header{
+	color: $color-nuevo;
+}
+
+body{
+	font-family: montserrat;
+}
+
+.textoInicio {
+	font-family: montserrat;
+	margin: 2rem;
+	color: $color-nuevo;
+	h1{
+		font-weight: 700;
+		font-size: 4em;
+	}
+	p{
+		font-weight: 400;
+		font-size: 1rem;
+		text-align: justify;
+	}
+	
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	align-items: center;
+	padding: 3rem;
+
+	div{
+		color: white;
+		a{
+			text-decoration: none;
+			&:hover{
+				opacity: .5;
+			}
+		}
+	}
+}
+
+.proyectos{
+
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	img{
+		&:hover{
+		opacity: .6;
+	}
+	}
+}
+
+.concursos{
+	text-align: justify;
+	margin-top: 2rem;
+	div{
+		font-weight: 700;
+			p{
+				font-weight: 400;
+			}
+		}
+	}
+
+.textoIntegrantes{
+	text-align: justify;
+}
