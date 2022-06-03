@@ -1,0 +1,33 @@
+%imagenes{
+    margin-bottom: 3;
+    justify-content: space-between;
+
+    @media all and (min-width: 1200px){
+        display: flex;
+    }
+    
+    @media all and (min-width: 992x){
+        display: block;
+    }
+
+}
+
+$colores:(
+    blanco: rgb(200, 200, 200),
+    negro: rgb(44, 44, 44),
+    rojo: rgb(251, 77, 77),
+    azul: rgb(94, 94, 253),
+);
+
+@mixin botones ($bgcolor, $color) {
+    font-size: .8rem;
+    border-radius: .5rem;
+    color:$color;
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 6rem;
+    text-decoration: none;
+    background-color: $bgcolor;
+    
+}

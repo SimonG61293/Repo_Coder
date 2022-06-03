@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap');
-
-
 @import "mediaqueries";
+@import "variables";
 
-$color-nuevo:
-	black;
 
 #header{
-	color: $color-nuevo;
+	color: map-get($colores,negro);
 }
 
 body{
@@ -17,10 +14,10 @@ body{
 .textoInicio {
 	font-family: montserrat;
 	margin: 2rem;
-	color: $color-nuevo;
+	color: map-get($colores,negro);
 	h1{
 		font-weight: 700;
-		font-size: 4em;
+		font-size: 4rem;
 	}
 	p{
 		font-weight: 400;
@@ -30,15 +27,25 @@ body{
 	
 }
 
+.contenedorImg1{
+	@extend %imagenes;
+	font-size: x-large;
+}
+
+.contenedorImg2{
+	@extend %imagenes;
+	font-size: medium;
+}
+
 .footer{
 	display: flex;
 	justify-content: space-between;
-	background-color: black;
+	background-color: map-get($colores,negro);
 	align-items: center;
 	padding: 3rem;
 
 	div{
-		color: white;
+		color: map-get($colores,blanco);
 		a{
 			text-decoration: none;
 			&:hover{
@@ -52,7 +59,7 @@ body{
 
 	a{
 		text-decoration: none;
-		color: black;
+		color: map-get($colores,negro);
 	}
 	img{
 		&:hover{
@@ -74,4 +81,26 @@ body{
 
 .textoIntegrantes{
 	text-align: justify;
+}
+
+.botones{
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+.boton-mixin-proyectos{
+	@include botones (map-get($colores, negro), map-get($colores, blanco));
+	
+}
+.boton-mixin-concursos{
+	@include botones(map-get($colores, rojo), map-get($colores, negro));
+
+}
+.boton-mixin-estudio{
+	@include botones(map-get($colores, azul), map-get($colores, blanco));
+
+}
+.boton-mixin-contacto{
+	@include botones(map-get($colores, blanco), map-get($colores, negro));
+
 }
