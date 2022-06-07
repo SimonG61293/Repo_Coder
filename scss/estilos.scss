@@ -82,25 +82,3 @@ body{
 .textoIntegrantes{
 	text-align: justify;
 }
-
-.botones{
-	display: flex;
-	justify-content: space-between;
-	align-items: center
-}
-.boton-mixin-proyectos{
-	@include botones (map-get($colores, negro), map-get($colores, blanco));
-	
-}
-.boton-mixin-concursos{
-	@include botones(map-get($colores, rojo), map-get($colores, negro));
-
-}
-.boton-mixin-estudio{
-	@include botones(map-get($colores, azul), map-get($colores, blanco));
-
-}
-.boton-mixin-contacto{
-	@include botones(map-get($colores, blanco), map-get($colores, negro));
-
-}

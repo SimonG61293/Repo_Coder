@@ -29,6 +29,22 @@
   }
 }
 
+/* futuros botones */
+/*
+
+@mixin botones ($bgcolor, $color) {
+    font-size: .8rem;
+    border-radius: .5rem;
+    color:$color;
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 6rem;
+    text-decoration: none;
+    background-color: $bgcolor;
+    
+}
+*/
 #header {
   color: #2c2c2c;
 }
@@ -112,65 +128,5 @@ body {
 
 .textoIntegrantes {
   text-align: justify;
-}
-
-.botones {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.boton-mixin-proyectos {
-  font-size: .8rem;
-  border-radius: .5rem;
-  color: #c8c8c8;
-  padding: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 6rem;
-  text-decoration: none;
-  background-color: #2c2c2c;
-}
-
-.boton-mixin-concursos {
-  font-size: .8rem;
-  border-radius: .5rem;
-  color: #2c2c2c;
-  padding: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 6rem;
-  text-decoration: none;
-  background-color: #fb4d4d;
-}
-
-.boton-mixin-estudio {
-  font-size: .8rem;
-  border-radius: .5rem;
-  color: #c8c8c8;
-  padding: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 6rem;
-  text-decoration: none;
-  background-color: #5e5efd;
-}
-
-.boton-mixin-contacto {
-  font-size: .8rem;
-  border-radius: .5rem;
-  color: #2c2c2c;
-  padding: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 6rem;
-  text-decoration: none;
-  background-color: #c8c8c8;
 }
 /*# sourceMappingURL=estilos.css.map */
