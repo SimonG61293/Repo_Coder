@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap');
-@import "mediaqueries";
 @import "variables";
+@import "mediaqueries";
 
 
 #header{
@@ -17,7 +17,7 @@ body{
 	color: map-get($colores,negro);
 	h1{
 		font-weight: 700;
-		font-size: 4rem;
+		font-size: 20px;
 	}
 	p{
 		font-weight: 400;
@@ -29,12 +29,10 @@ body{
 
 .contenedorImg1{
 	@extend %imagenes;
-	font-size: x-large;
 }
 
 .contenedorImg2{
 	@extend %imagenes;
-	font-size: medium;
 }
 
 .footer{

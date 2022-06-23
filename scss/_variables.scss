@@ -2,12 +2,8 @@
     margin-bottom: 3;
     justify-content: space-between;
 
-    @media all and (min-width: 1200px){
+    @media all and (min-width: 992px){
         display: flex;
-    }
-    
-    @media all and (min-width: 992x){
-        display: block;
     }
 
 }

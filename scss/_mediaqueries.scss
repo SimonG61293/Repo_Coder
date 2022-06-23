@@ -1,9 +1,8 @@
-@media all and (max-width: 920px){
+@media all and (min-width: 992px){
 
-	.textoInicio {
-		margin: 1rem;
-		h1{
-			font-size: 2rem;
-		}
-	}
+	.textoInicio h1 {
+		font-size: 40px;
+		color: red;
+
+}
 }
