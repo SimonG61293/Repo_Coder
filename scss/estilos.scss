@@ -17,7 +17,7 @@ body{
 	color: map-get($colores,negro);
 	h1{
 		font-weight: 700;
-		font-size: 20px;
+		font-size: 4rem;
 	}
 	p{
 		font-weight: 400;
@@ -89,4 +89,11 @@ body{
 	border-radius: .2em;
 	border-color: rgb(217, 221, 221);
 
+}
+
+@media all and (max-width: 1020px){
+
+	.textoInicio h1 {
+		font-size: 2rem;
+}
 }

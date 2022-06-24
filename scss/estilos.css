@@ -30,12 +30,13 @@
     
 }
 */
-@media all and (min-width: 992px) {
-  .textoInicio h1 {
-    font-size: 40px;
-  }
-}
+/*@media all and (min-width: 992px){
 
+	.textoInicio h1 {
+		font-size: 40px;
+
+}
+}*/
 #header {
   color: #2c2c2c;
 }
@@ -52,7 +53,7 @@ body {
 
 .textoInicio h1 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 4rem;
 }
 
 .textoInicio p {
@@ -120,5 +121,11 @@ body {
   background-color: white;
   border-radius: .2em;
   border-color: #d9dddd;
+}
+
+@media all and (max-width: 1020px) {
+  .textoInicio h1 {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
