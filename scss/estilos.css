@@ -30,13 +30,6 @@
     
 }
 */
-/*@media all and (min-width: 992px){
-
-	.textoInicio h1 {
-		font-size: 40px;
-
-}
-}*/
 #header {
   color: #2c2c2c;
 }
@@ -47,19 +40,29 @@ body {
 
 .textoInicio {
   font-family: montserrat;
-  margin: 2rem;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
   color: #2c2c2c;
 }
 
 .textoInicio h1 {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .textoInicio p {
   font-weight: 400;
   font-size: 1rem;
   text-align: justify;
+  margin: 10px;
+}
+
+.textoInicio .textoInicio__cont {
+  border: 1px solid grey;
+  margin-bottom: 1rem;
+  background-color: #eae7e7;
+  border-radius: 4px;
 }
 
 .footer {
@@ -99,7 +102,6 @@ body {
 
 .concursos {
   text-align: justify;
-  margin-top: 2rem;
 }
 
 .concursos div {

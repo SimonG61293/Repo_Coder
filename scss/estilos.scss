@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap');
 @import "variables";
-@import "mediaqueries";
 
 
 #header{
@@ -13,18 +12,26 @@ body{
 
 .textoInicio {
 	font-family: montserrat;
-	margin: 2rem;
+	margin-top: 1rem;
+	margin-left: 8rem;
+	margin-right: 8rem;
 	color: map-get($colores,negro);
 	h1{
 		font-weight: 700;
-		font-size: 4rem;
+		font-size: 2rem;
 	}
 	p{
 		font-weight: 400;
 		font-size: 1rem;
 		text-align: justify;
+		margin: 10px;
 	}
-	
+	.textoInicio__cont{
+		border: 1px solid grey;
+		margin-bottom: 1rem;
+		background-color: rgb(234, 231, 231);
+		border-radius: 4px;
+	}
 }
 
 .contenedorImg1{
@@ -68,7 +75,6 @@ body{
 
 .concursos{
 	text-align: justify;
-	margin-top: 2rem;
 	div{
 		font-weight: 700;
 			p{
