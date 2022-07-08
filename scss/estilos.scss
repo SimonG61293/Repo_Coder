@@ -13,8 +13,8 @@ body{
 .textoInicio {
 	font-family: montserrat;
 	margin-top: 1rem;
-	margin-left: 8rem;
-	margin-right: 8rem;
+	margin-left: 7.7rem;
+	margin-right: 7.7rem;
 	color: map-get($colores,negro);
 	h1{
 		font-weight: 700;
@@ -24,13 +24,13 @@ body{
 		font-weight: 400;
 		font-size: 1rem;
 		text-align: justify;
-		margin: 10px;
+		margin-right: 20px;
 	}
+	
 	.textoInicio__cont{
-		border: 1px solid grey;
+		display: flex;
+		justify-content: center;
 		margin-bottom: 1rem;
-		background-color: rgb(234, 231, 231);
-		border-radius: 4px;
 	}
 }
 
@@ -99,7 +99,24 @@ body{
 
 @media all and (max-width: 1020px){
 
+	.textoInicio{
+		margin-left:2.5rem;
+		margin-right: 2.5rem;
+		display: block;
+		justify-content: center;
+	}
 	.textoInicio h1 {
 		font-size: 2rem;
+	}
+	.textoInicio__cont{
+		display: block;
+		justify-content: center;
+		
+	}
+}
+
+@media all and (max-width: 685px){
+.textoInicio__cont iframe{
+	width: 370px;
 }
 }
